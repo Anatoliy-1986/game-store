@@ -1,0 +1,20 @@
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 22px 135px;
+}
+
+.navItems {
+  display: grid;
+  grid-template-columns: min-content min-content;
+  gap: 30px;
+}
+
+.navList {
+  display: grid;
+  grid-template-columns: repeat(4, min-content);
+  gap: 50px;
+  justify-content: center;
+  align-content: center;
+}
